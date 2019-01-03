@@ -1,7 +1,7 @@
 <?php
 use PHPUnit\Framework\TestCase;
 require_once('./src/varios.php');
-require_once('./src/Email.php');
+// require_once('./src/Email.php');
 
 final class variosTest extends TestCase
 {
@@ -25,15 +25,15 @@ final class variosTest extends TestCase
     }
 
 //assertInfinite
-    public function testInf(){
-      $this->assertInfinite(varios::inf());
-    }
+//    public function testInf(){
+//      $this->assertInfinite(varios::inf());
+//    }
 
 
 //metodo para probar si se instancia un obj
-    public function testIns(){
-        $this->assertSame(Email::class,varios::ins());
-    }
+//    public function testIns(){
+//        $this->assertSame(Email::class,varios::ins());
+//    }
 
 
 }
