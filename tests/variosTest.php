@@ -15,6 +15,7 @@ final class variosTest extends TestCase
         $this->assertTrue(is_array(varios::Arreglo()));
     }
 
+//test
     public function testArregloVacio(){
         $this->assertEmpty([]);
     }
