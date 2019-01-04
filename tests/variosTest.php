@@ -5,7 +5,7 @@ require_once('./src/varios.php');
 final class variosTest extends TestCase
 {
 
-// metohd sumarrrrrr
+// metohd sumarrrr
     public function testSumar(){
         $this->assertEquals(10 ,varios::sumar(5,5));
     }
