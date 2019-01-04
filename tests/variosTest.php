@@ -24,8 +24,6 @@ final class variosTest extends TestCase
     }
 
 
-    
-
 //assertSame : este compara el tipo de valor;
     public function testValor(){
         $this->assertSame(8,varios::valor("8"));
